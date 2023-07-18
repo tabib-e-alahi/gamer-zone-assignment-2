@@ -1,7 +1,5 @@
 /* ==================== Nav Styles ========================================= */
 .nav-container {
-  margin: 0 auto;
-  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,12 +19,11 @@
   font-weight: 700;
 }
 .logo-title > span {
-  color: #FF42A5;
-  
+  color: #ff42a5;
 }
 
-.logo-icon{
-    width: 70px;
+.logo-icon {
+  width: 70px;
 }
 .nav-items-container {
   display: flex;
@@ -34,10 +31,10 @@
   gap: 20px;
 }
 
-.nav-items{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .nav-item {
   text-decoration: none;
@@ -68,42 +65,123 @@
 }
 
 /* ==================== banner Styles ========================================= */
+.banner-container {
+  background-image: url("../images/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size:50%;
+  background-position: left;
+  margin-bottom: 150px;
+}
+.banner-inner-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.dummy-class{
+ text-align: left;
+ display: flex;
+ align-items: center;
+ justify-content: left;
+ 
+ 
+}
+
+.goat-caption {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.goat-class {
+  font-size: 5.9rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+}
+.banner-list-container {
+  padding-left: 0;
+}
+
+.banner-list-container > li {
+  list-style: none;
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.banner-img-class {
+  padding-top: 20px;
+}
+
+.banner-img {
+  height:fit-content;
+  width: 100%;
+}
+
+.banner-btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+.btn-signIn,
+.btn-rogue {
+  padding: 15px 36px;
+  gap: 10px;
+
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 48px;
+  border: 0;
+}
+
+.btn-signIn {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+.btn-rogue {
+  background: #4ec5f7;
+}
 
 /* ==================== responsive header Styles for mobile device========================================= */
 
-@media screen and (max-width:576px){
+@media screen and (max-width: 576px) {
+  .nav-container,
+  .nav-items-container,
+  .nav-items {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .nav-container,
-    .nav-items-container,
-    .nav-items{
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .logo-area{
-        margin-bottom: 40px;
-    }
-    .nav-item{
-        margin-bottom: 5px;
-    }
+  .logo-area {
+    margin-bottom: 40px;
+  }
+  .nav-item {
+    margin-bottom: 5px;
+  }
 }
 
 /* ==================== responsive header Styles for TABLET========================================= */
 
-@media screen and (min-width:577px) and (max-width:992px){
-    
-    .nav-container,
-    .nav-items-container{
-        flex-direction: column;
-        justify-content: center;
-    }
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .nav-container,
+  .nav-items-container {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .logo-area{
-        margin-bottom: 50px;
-    }
+  .logo-area {
+    margin-bottom: 50px;
+  }
 
-    .nav-items{
-        margin-bottom: 15px;
-    }
-
+  .nav-items {
+    margin-bottom: 15px;
+  }
 }
