@@ -1,0 +1,109 @@
+/* ==================== Nav Styles ========================================= */
+.nav-container {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0px;
+}
+
+.logo-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-title {
+  color: #0b0223;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo-title > span {
+  color: #FF42A5;
+  
+}
+
+.logo-icon{
+    width: 70px;
+}
+.nav-items-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-item {
+  text-decoration: none;
+}
+
+.follow-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 16px 16px 24px;
+
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  border: 0;
+}
+.follow-us-title,
+.nav-item {
+  color: #3c354f;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.youtube-img {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.tiktok-img {
+  width: 25px;
+}
+
+/* ==================== banner Styles ========================================= */
+
+/* ==================== responsive header Styles for mobile device========================================= */
+
+@media screen and (max-width:576px){
+
+    .nav-container,
+    .nav-items-container,
+    .nav-items{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-area{
+        margin-bottom: 40px;
+    }
+    .nav-item{
+        margin-bottom: 5px;
+    }
+}
+
+/* ==================== responsive header Styles for TABLET========================================= */
+
+@media screen and (min-width:577px) and (max-width:992px){
+    
+    .nav-container,
+    .nav-items-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-area{
+        margin-bottom: 50px;
+    }
+
+    .nav-items{
+        margin-bottom: 15px;
+    }
+
+}
