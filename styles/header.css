@@ -3,20 +3,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 0px;
+  padding: 35px 220px;
 }
 
 .logo-area {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .logo-title {
   color: #0b0223;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 .logo-title > span {
   color: #ff42a5;
@@ -66,24 +66,16 @@
 
 /* ==================== banner Styles ========================================= */
 .banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner-text-area {
   background-image: url("../images/banner-bg.png");
+  padding: 140px 206px 140px 220px;
   background-repeat: no-repeat;
-  background-size:50%;
-  background-position: left;
-  margin-bottom: 150px;
-}
-.banner-inner-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-}
-.dummy-class{
- text-align: left;
- display: flex;
- align-items: center;
- justify-content: left;
- 
- 
 }
 
 .goat-caption {
@@ -115,15 +107,6 @@
   text-transform: lowercase;
 }
 
-.banner-img-class {
-  padding-top: 20px;
-}
-
-.banner-img {
-  height:fit-content;
-  width: 100%;
-}
-
 .banner-btns {
   display: flex;
   gap: 10px;
@@ -150,9 +133,28 @@
   background: #4ec5f7;
 }
 
+.banner-img {
+  width: 100%;
+  height: 100%;
+}
+
 /* ==================== responsive header Styles for mobile device========================================= */
 
 @media screen and (max-width: 576px) {
+  .logo-icon {
+    width: 50px;
+  }
+  .nav-items-container {
+    gap: 10px;
+  }
+  .nav-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .nav-items {
+    gap: 10px;
+  }
+
   .nav-container,
   .nav-items-container,
   .nav-items {
@@ -165,6 +167,50 @@
   }
   .nav-item {
     margin-bottom: 5px;
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+  }
+
+  .banner-text-area {
+
+    width: 100%;
+    background-size: 100%;
+    padding-bottom: 108px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+
+  .goat-caption {
+    font-size: 2rem;
+  }
+  .goat-class {
+    font-size: 3.9rem;
+    margin-bottom: 10px;
+  }
+  .banner-list-container > li {
+    font-size: 1rem;
+  }
+
+  .banner-btns {
+    margin-top: 20px;
+  }
+
+  .btn-signIn,
+  .btn-rogue {
+    padding: 10px 26px;
+    font-size: 1rem;
+  }
+
+  .banner-img {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
 
