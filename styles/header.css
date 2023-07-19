@@ -127,7 +127,7 @@
 }
 
 .btn-signIn {
-  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
 .btn-rogue {
   background: #4ec5f7;
@@ -135,7 +135,7 @@
 
 .banner-img {
   width: 100%;
-  height: 100%;
+  
 }
 
 /* ==================== responsive header Styles for mobile device========================================= */
@@ -178,13 +178,14 @@
   }
 
   .banner-text-area {
-
     width: 100%;
-    background-size: 100%;
-    padding-bottom: 108px;
-    padding-left: 10px;
+    margin-left: 50px;
+    padding-bottom: 25px;
+    padding-left: 25px;
     padding-right: 0px;
-    padding-top: 20px;
+    padding-top: 30px;
+   background-size: 110%;
+
   }
 
   .goat-caption {
