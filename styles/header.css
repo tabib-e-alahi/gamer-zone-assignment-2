@@ -66,16 +66,24 @@
 
 /* ==================== banner Styles ========================================= */
 .banner-container {
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 68px;
+}
+.banner-img {
+  width: 95%;
+  
 }
 
 .banner-text-area {
+  
   background-image: url("../images/banner-bg.png");
-  padding: 140px 206px 140px 220px;
+  padding: 110px 206px 110px 220px;
   background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
 }
 
 .goat-caption {
@@ -133,10 +141,7 @@
   background: #4ec5f7;
 }
 
-.banner-img {
-  width: 100%;
-  
-}
+
 
 /* ==================== responsive header Styles for mobile device========================================= */
 
@@ -185,7 +190,6 @@
     padding-right: 0px;
     padding-top: 30px;
    background-size: 110%;
-
   }
 
   .goat-caption {
@@ -231,4 +235,24 @@
   .nav-items {
     margin-bottom: 15px;
   }
+
+
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+  }
+
+  .banner-text-area {
+    width: 100%;
+    margin-left: 50px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 0px;
+    padding-top: 30px;
+   background-size: 100%;
+  }
+
 }
