@@ -70,10 +70,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 68px;
+  gap: 28px;
+}
+.banner-img-class{
+  padding-right: 80px;
 }
 .banner-img {
-  width: 95%;
+  width: 90%;
   
 }
 
@@ -213,6 +216,9 @@
     font-size: 1rem;
   }
 
+  .banner-img-class{
+    padding-right: 0px;
+  }
   .banner-img {
     width: 100%;
     margin-bottom: 10px;
@@ -254,5 +260,7 @@
     padding-top: 30px;
    background-size: 100%;
   }
-
+  .banner-img-class{
+    padding-right: 0px;
+  }
 }
