@@ -1,6 +1,6 @@
 .footer-container {
   background: #0b0223;
-  padding: 120px 0;
+  padding: 120px 0px;
 }
 
 .inner-footer {
@@ -19,6 +19,7 @@
 .footer-icon {
   width: 70px;
 }
+
 .footer-title {
   color: #fff;
   font-size: 2rem;
@@ -113,6 +114,12 @@
         grid-template-columns: repeat(2,1fr);
         grid-gap: 20px;
       }
+      .foot-icon-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 }
 
 /* ==================== responsive header Styles for Tablet device========================================= */
@@ -158,5 +165,11 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-gap: 20px;
+      }
+      .foot-icon-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
 }

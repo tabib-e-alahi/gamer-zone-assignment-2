@@ -65,29 +65,40 @@
 }
 
 /* ==================== banner Styles ========================================= */
-.banner-container {
-  
+
+
+
+.banner-container { 
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 28px;
 }
 .banner-img-class{
-  padding-right: 80px;
+  width: 55%;
+  /* padding-right: 80px; */
 }
 .banner-img {
-  width: 85%;
+  width: 70%;
   
 }
 
-.banner-text-area {
-  
+.banner-text-main-class{
+  width: 45%;
   background-image: url("../images/banner-bg.png");
-  padding: 110px 180px 100px 220px;
+  padding: 50px 0px 50px 220px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: left;
 }
+
+
+/* .banner-text-area {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 80%;
+  
+} */
 
 .goat-caption {
   color: #0b0223;
@@ -108,6 +119,7 @@
 }
 .banner-list-container {
   padding-left: 0;
+  
 }
 
 .banner-list-container > li {
@@ -119,7 +131,7 @@
 }
 
 .banner-btns {
-  display: flex;
+  
   gap: 10px;
   margin-top: 35px;
 }
@@ -185,16 +197,17 @@
     margin: 10px 10px;
   }
 
+  .banner-text-main-class {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 95%;
+    padding: 30px 5px 30px 15px;
+   background-size: 100%;
+  }
   .banner-text-area {
     width: 100%;
-    margin-left: 50px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 0px;
-    padding-top: 30px;
-   background-size: 110%;
   }
-
+  
   .goat-caption {
     font-size: 2rem;
   }
@@ -217,6 +230,7 @@
   }
 
   .banner-img-class{
+    width: 80%;
     padding-right: 0px;
   }
   .banner-img {
@@ -251,16 +265,26 @@
     margin: 10px 10px;
   }
 
+  .banner-text-main-class {
+    width: 90%;
+  margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    padding: 65px 10px 65px 10px;
+  }
   .banner-text-area {
-    width: 100%;
-    margin-left: 50px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 0px;
-    padding-top: 30px;
-   background-size: 100%;
+    width: 90%;
   }
   .banner-img-class{
+    width: auto;
+    display: flex;
+    justify-content: center;
+   
     padding-right: 0px;
+    margin-bottom: 20px;
+  }
+  .banner-img {
+    width: 80%;
+    
   }
 }
