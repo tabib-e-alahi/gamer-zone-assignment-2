@@ -1,9 +1,12 @@
+
 /* ==================== Nav Styles ========================================= */
 .nav-container {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 220px;
+  padding: 35px 0px;
 }
 
 .logo-area {
@@ -69,36 +72,37 @@
 
 
 .banner-container { 
+  position: static;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 28px;
 }
 .banner-img-class{
-  width: 55%;
+  width: 50%;
   /* padding-right: 80px; */
 }
 .banner-img {
-  width: 70%;
+  width: 80%;
   
 }
 
 .banner-text-main-class{
-  width: 45%;
+  width: 55%;
   background-image: url("../images/banner-bg.png");
-  padding: 50px 0px 50px 220px;
+  padding: 50px 0px 50px 180px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 
-/* .banner-text-area {
+.banner-text-area {
 display: flex;
 flex-direction: column;
 justify-content: center;
-width: 80%;
+
   
-} */
+}
 
 .goat-caption {
   color: #0b0223;
