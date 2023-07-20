@@ -16,10 +16,6 @@
 }
 
 .online-games-title > span {
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
 
@@ -75,8 +71,6 @@
   font-size: 1.25rem;
 
   font-weight: 600;
-
-  /* Adjust the alpha value to control darkness */
   opacity: 0;
   transition: opacity 0.3s ease;
 }

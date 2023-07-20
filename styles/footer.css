@@ -73,103 +73,103 @@
 /* ==================== responsive header Styles for mobile device========================================= */
 
 @media screen and (max-width: 576px) {
-    .footer-items {
-        padding-left: 0px;
-        
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap: 30px ;
-      }
+  .footer-items {
+    padding-left: 0px;
 
-      .inner-footer {
-        width: 100%;
-      }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
 
-      .footer-icon {
-        width: 50px;
-      }
-      .footer-title {
-        color: #fff;
-        font-size: 2rem;
-        font-weight: 600;
-      }
-      .footer-items > li {
-        list-style: none;
-        color: #fff;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 600;
-      }
-      .foot-icon-class {
-        padding-right: 0;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap: 30px ;
-      }
+  .inner-footer {
+    width: 100%;
+  }
 
-      .condition-class {
-        width: 90%;
-        padding-right: 0;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 20px;
-      }
-      .foot-icon-img{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+  .footer-icon {
+    width: 50px;
+  }
+  .footer-title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .footer-items > li {
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .foot-icon-class {
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+
+  .condition-class {
+    width: 90%;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .foot-icon-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* ==================== responsive header Styles for Tablet device========================================= */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .footer-items {
-        padding-left: 0px;
-        
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap: 30px ;
-      }
+  .footer-items {
+    padding-left: 0px;
 
-      .inner-footer {
-        width: 100%;
-      }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
 
-      .footer-icon {
-        width: 50px;
-      }
-      .footer-title {
-        color: #fff;
-        font-size: 2rem;
-        font-weight: 600;
-      }
-      .footer-items > li {
-        list-style: none;
-        color: #fff;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 600;
-      }
-      .foot-icon-class {
-        padding-right: 0;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap: 30px ;
-      }
+  .inner-footer {
+    width: 100%;
+  }
 
-      .condition-class {
-        width: 90%;
-        padding-right: 0;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 20px;
-      }
-      .foot-icon-img{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+  .footer-icon {
+    width: 50px;
+  }
+  .footer-title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .footer-items > li {
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .foot-icon-class {
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+
+  .condition-class {
+    width: 90%;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .foot-icon-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

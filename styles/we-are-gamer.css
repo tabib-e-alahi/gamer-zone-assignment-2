@@ -31,10 +31,6 @@
   text-align: right;
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .we-are-info {
@@ -105,8 +101,7 @@
 /* ==================== responsive header Styles for Tablet device========================================= */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-
-    .we-are-gamer-container {
+  .we-are-gamer-container {
     margin-top: 40px;
     background: none;
   }

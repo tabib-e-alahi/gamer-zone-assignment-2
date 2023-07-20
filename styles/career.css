@@ -106,19 +106,18 @@
   }
 
   .career-ul-class li {
-  margin-bottom: 8px;
-}
-.career-btn{
-  padding: 10px 20px;
-  font-size: 0.5rem;
-}
+    margin-bottom: 8px;
+  }
+  .career-btn {
+    padding: 10px 20px;
+    font-size: 0.5rem;
+  }
 }
 
 /* ==================== responsive header Styles for Tablet device========================================= */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-
-    .career-inner {
+  .career-inner {
     flex-direction: column;
     padding-top: 45px;
   }
@@ -145,11 +144,11 @@
   }
 
   .career-ul-class li {
-  margin-bottom: 8px;
-}
-.career-btn{
+    margin-bottom: 8px;
+  }
+  .career-btn {
     margin-top: 5px;
-  padding: 10px 20px;
-  font-size: 0.8rem;
-}
+    padding: 10px 20px;
+    font-size: 0.8rem;
+  }
 }

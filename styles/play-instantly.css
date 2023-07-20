@@ -11,12 +11,7 @@
   font-size: 48px;
   font-weight: 700;
 }
-.play-title > span {
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .play-info {
   color: #534c64;
   text-align: right;
@@ -38,6 +33,10 @@
   position: sticky;
   margin-left: -100px;
 }
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------- */
 
 /* ==================== responsive header Styles for mobile device========================================= */
 
@@ -117,3 +116,4 @@
     margin-bottom: 50px;
   }
 }
+/*  */
